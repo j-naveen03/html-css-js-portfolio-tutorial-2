@@ -165,8 +165,11 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 10rem;
   height: 80vh;
+  img{
+    border-radius: 10000px;
+  }
 }
 
 .section__pic-container {
@@ -430,3 +433,4 @@ footer {
 footer p {
   text-align: center;
 }
+
